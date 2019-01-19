@@ -23,16 +23,16 @@
   },
   {
    "compression": 8,
-   "hash": "69d7fa449c370b940805c5b96137debd847914a9",
+   "hash": "32cea3aa3a0c99993c544bbd0a89fbddb11e55a0",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 4426492,
+   "size": 4426604,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "1a579b86ceebc03e9a64f312960d44e7ea936061",
+   "hash": "5529ed7885b5814b0cf6b40a0a7150985c2cb090",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 51825744,
+   "size": 51891744,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -43,9 +43,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "9a6aaf8a503062c4271ec9631c92e5f18caea72e",
+   "xfrm_hash": "35cc1e1e461a5c05a91d97739f8216511a9dd490",
    "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\libil2cpp.so-c4f5cce3d6d769fb",
-   "xfrm_size": 51826502
+   "xfrm_size": 51892502
   },
   {
    "compression": 8,
@@ -188,7 +188,7 @@
   },
   {
    "compression": 8,
-   "hash": "96d11e4c56bece4e25eff2abc8a76d3ad4379abe",
+   "hash": "f194ac9723badf82ce86b823e6ceff8f03bd8316",
    "pkgpath": "Data/globalgamemanagers",
    "size": 50464,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/globalgamemanagers"

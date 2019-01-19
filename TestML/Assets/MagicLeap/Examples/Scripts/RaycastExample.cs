@@ -13,6 +13,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.MagicLeap;
+using System.Threading;
 
 namespace MagicLeap
 {
@@ -174,11 +175,14 @@ namespace MagicLeap
         {
             if (_controllerConnectionHandler.IsControllerValid(controllerId) && button == MLInputControllerButton.Bumper)
             {
+
+                //maybe should clean up
                 MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
                 Material newMaterial = new Material(Shader.Find("GreenCursor"));
 
                 newMaterial.color = Color.blue;
-                gameObjectRenderer.material = newMaterial;
+               // gameObjectRenderer.material = newMaterial;
+                //Thread.Sleep(10000);
 
                 //_raycastMode = (RaycastMode)((int)(_raycastMode + 1) % _modeCount);
                 UpdateRaycastMode();

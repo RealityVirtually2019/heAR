@@ -12,6 +12,7 @@
 
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
+using System.Threading;
 
 namespace MagicLeap
 {
@@ -96,6 +97,7 @@ namespace MagicLeap
             _color = _render.material.color;
 
             MLInput.OnControllerButtonDown += OnButtonDown;
+            MLInput.OnControllerButtonUp += OnButtonUp;
         }
         #endregion
 
@@ -120,7 +122,7 @@ namespace MagicLeap
 
 
 
-                _render.material.color = (state == MLWorldRays.MLWorldRaycastResultState.HitObserved)? _color : Color.yellow;
+               // _render.material.color = (state == MLWorldRays.MLWorldRaycastResultState.HitObserved)? _color : Color.yellow;
 
                 if (_scaleWhenClose)
                 {
@@ -141,7 +143,7 @@ namespace MagicLeap
                 transform.LookAt(_raycast.RayOrigin);
                 transform.localScale = Vector3.one;
 
-                _render.material.color = Color.red;
+                //_render.material.color = Color.red;
 
                 _hit = false;
             }
@@ -152,10 +154,29 @@ namespace MagicLeap
             {
                 if (button == MLInputControllerButton.Bumper)
                 {
+
+               // MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
+ 
                 _render.material.color = Color.blue;
+                //Thread.Sleep(1000);
+                //_render.material.color = Color.blue;
 
             }
             }
-        
+
+        private void OnButtonUp(byte controllerId, MLInputControllerButton button)
+        {
+            if (button == MLInputControllerButton.Bumper)
+            {
+
+                // MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
+
+                _render.material.color = Color.green;
+                //Thread.Sleep(1000);
+                //_render.material.color = Color.blue;
+
+            }
+        }
+
     }
 }
