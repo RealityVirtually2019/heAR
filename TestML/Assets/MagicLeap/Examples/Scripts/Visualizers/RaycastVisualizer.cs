@@ -19,11 +19,15 @@ namespace MagicLeap
     /// <summary>
     /// Updates the transform an color on the Hit Position and Normal from the assigned object.
     /// </summary>
+    /// 
+
+
     public class RaycastVisualizer : MonoBehaviour
     {
         #region Private Variables
         [SerializeField, Tooltip("The reference to the class to handle results from.")]
         private BaseRaycast _raycast;
+
 
         [SerializeField, Tooltip("The default distance for the cursor when a hit is not detected.")]
         private float _defaultDistance = 9.0f;
@@ -35,6 +39,8 @@ namespace MagicLeap
 
         // Stores default color
         private Color _color;
+
+        private GameObject history;
 
         // Stores result of raycast
         private bool _hit = false;
@@ -62,6 +68,7 @@ namespace MagicLeap
         /// </summary>
         void Awake()
         {
+
             // Check if the Layer is set to Default and disable any child colliders.
             if (gameObject.layer == LayerMask.NameToLayer("Default"))
             {
@@ -96,7 +103,9 @@ namespace MagicLeap
             }
             _color = _render.material.color;
 
-            MLInput.OnControllerButtonDown += OnButtonDown;
+            history = GameObject.Find("Text: History");
+
+        MLInput.OnControllerButtonDown += OnButtonDown;
             MLInput.OnControllerButtonUp += OnButtonUp;
         }
         #endregion
@@ -155,9 +164,13 @@ namespace MagicLeap
                 if (button == MLInputControllerButton.Bumper)
                 {
 
-               // MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
- 
+                //GameObject.Find("Text: History").GetComponent<Renderer>().enabled = true;
                 _render.material.color = Color.blue;
+                history.SetActive(true);
+
+                // MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
+
+                //GameObject.Find("Text: History").GetComponent<Renderer>().enabled = false;
                 //Thread.Sleep(1000);
                 //_render.material.color = Color.blue;
 
@@ -168,10 +181,15 @@ namespace MagicLeap
         {
             if (button == MLInputControllerButton.Bumper)
             {
-
-                // MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
-
                 _render.material.color = Color.green;
+
+                //GameObject.Find("Text: History").GetComponent<Renderer>().enabled = false;
+                history.SetActive(false);
+
+               // MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
+
+
+                //GameObject.Find("Text: History").GetComponent<Renderer>().enabled = true;
                 //Thread.Sleep(1000);
                 //_render.material.color = Color.blue;
 

@@ -2,7 +2,7 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "fa5773c45fb58e28995c1abdeab37867e0f94b58",
+   "hash": "e0d7d52d6282c0235c9ef0d0920684869ca21c75",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
@@ -23,16 +23,16 @@
   },
   {
    "compression": 8,
-   "hash": "32cea3aa3a0c99993c544bbd0a89fbddb11e55a0",
+   "hash": "554eaaebbfdd45949e4ea593aecd7f58aad3f5c8",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 4426604,
+   "size": 4427324,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "5529ed7885b5814b0cf6b40a0a7150985c2cb090",
+   "hash": "7d9de4ae01e8158ff4bba68b5bf335f8ba3d082f",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 51891744,
+   "size": 51833160,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -43,9 +43,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "35cc1e1e461a5c05a91d97739f8216511a9dd490",
+   "xfrm_hash": "1f67773a8b1c03cfa752f2ecd067a631a90e0cd1",
    "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\libil2cpp.so-c4f5cce3d6d769fb",
-   "xfrm_size": 51892502
+   "xfrm_size": 51833918
   },
   {
    "compression": 8,
@@ -188,23 +188,23 @@
   },
   {
    "compression": 8,
-   "hash": "f194ac9723badf82ce86b823e6ceff8f03bd8316",
+   "hash": "34c08bf881023bb363a07631894eb43df1de7f9c",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 50464,
+   "size": 50512,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "c2b8480b8f66ba2c08d7de28da1d29878568ef14",
+   "hash": "2b963f85063aadbcebf6ffe9218f96f1e68aba4c",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 90360,
+   "size": 90488,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "f6ae7be754a8e14cf00d57b0bfd84343bd3ad5b9",
+   "hash": "f4491f30eecb2934f0febd36dc7be8d51ea69d62",
    "pkgpath": "Data/level0",
-   "size": 19860,
+   "size": 21532,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/level0"
   },
   {
@@ -216,9 +216,9 @@
   },
   {
    "compression": 8,
-   "hash": "756f138291622672d65e76656f52d02768aa5db1",
+   "hash": "65dba92cc4c5ecf1fedea250e8402497b262b01d",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 1348576,
+   "size": 1348584,
    "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {

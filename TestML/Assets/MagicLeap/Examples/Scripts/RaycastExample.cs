@@ -182,7 +182,7 @@ namespace MagicLeap
 
                 newMaterial.color = Color.blue;
                // gameObjectRenderer.material = newMaterial;
-                //Thread.Sleep(10000);
+                //Thread.Sleep(10000);ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssxxxxxxxxxxxxxxxx
 
                 //_raycastMode = (RaycastMode)((int)(_raycastMode + 1) % _modeCount);
                 UpdateRaycastMode();
