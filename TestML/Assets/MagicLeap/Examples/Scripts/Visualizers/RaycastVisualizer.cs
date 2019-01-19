@@ -30,6 +30,8 @@ namespace MagicLeap
         [SerializeField, Tooltip("When enabled the cursor will scale down once a certain minimum distance is hit.")]
         private bool _scaleWhenClose = true;
 
+        private ControllerConnectionHandler _controllerConnectionHandler;
+
         // Stores default color
         private Color _color;
 
@@ -92,6 +94,8 @@ namespace MagicLeap
                 return;
             }
             _color = _render.material.color;
+
+            MLInput.OnControllerButtonDown += OnButtonDown;
         }
         #endregion
 
@@ -113,6 +117,9 @@ namespace MagicLeap
                 transform.localScale = Vector3.one;
 
                 // Set the color to yellow if the hit is unobserved.
+
+
+
                 _render.material.color = (state == MLWorldRays.MLWorldRaycastResultState.HitObserved)? _color : Color.yellow;
 
                 if (_scaleWhenClose)
@@ -140,5 +147,15 @@ namespace MagicLeap
             }
         }
         #endregion
+
+            private void OnButtonDown(byte controllerId, MLInputControllerButton button)
+            {
+                if (button == MLInputControllerButton.Bumper)
+                {
+                _render.material.color = Color.blue;
+
+            }
+            }
+        
     }
 }

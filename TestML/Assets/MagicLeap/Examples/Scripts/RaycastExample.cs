@@ -125,18 +125,28 @@ namespace MagicLeap
                 case RaycastMode.Controller:
                 {
                     _raycastController.gameObject.SetActive(true);
-                    _raycastController.Controller.gameObject.SetActive(true);
+                        
+
+                       
+                        //   _raycastController.gameObject.Material.SetColor(Color.Blue);
+                        _raycastController.Controller.gameObject.SetActive(true);
                     break;
                 }
                 case RaycastMode.Head:
                 {
-                    _raycastHead.gameObject.SetActive(true);
-                    break;
+                        //_raycastHead.gameObject.SetActive(true);
+                        _raycastController.gameObject.SetActive(true);
+                       // _raycastController.gameObject.Material.SetColor(Color.Purple);
+                        _raycastController.Controller.gameObject.SetActive(true);
+                        break;
                 }
                 case RaycastMode.Eyes:
                 {
-                    _raycastEyes.gameObject.SetActive(true);
-                    break;
+                        _raycastController.gameObject.SetActive(true);
+                     //   _raycastController.gameObject.Material.SetColor(Color.Orange);
+                        _raycastController.Controller.gameObject.SetActive(true);
+                        //_raycastEyes.gameObject.SetActive(true);
+                        break;
                 }
             }
         }
@@ -164,7 +174,13 @@ namespace MagicLeap
         {
             if (_controllerConnectionHandler.IsControllerValid(controllerId) && button == MLInputControllerButton.Bumper)
             {
-                _raycastMode = (RaycastMode)((int)(_raycastMode + 1) % _modeCount);
+                MeshRenderer gameObjectRenderer = _raycastController.gameObject.GetComponent<MeshRenderer>();
+                Material newMaterial = new Material(Shader.Find("GreenCursor"));
+
+                newMaterial.color = Color.blue;
+                gameObjectRenderer.material = newMaterial;
+
+                //_raycastMode = (RaycastMode)((int)(_raycastMode + 1) % _modeCount);
                 UpdateRaycastMode();
                 UpdateStatusText();
             }

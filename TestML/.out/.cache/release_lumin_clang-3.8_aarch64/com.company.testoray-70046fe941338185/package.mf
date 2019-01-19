@@ -1,0 +1,296 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "fa5773c45fb58e28995c1abdeab37867e0f94b58",
+   "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
+   "size": 5036,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "d4f4039e4d8d3a5824a7a534244b8454b6c50b6b",
+   "pkgpath": "Data/8a3ab7bc91eeac742a0ca9f375ed292f",
+   "size": 4208,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/8a3ab7bc91eeac742a0ca9f375ed292f"
+  },
+  {
+   "compression": 8,
+   "hash": "a9f71557a569a5b36623057dc8320edf5db39baf",
+   "pkgpath": "Data/8a3ab7bc91eeac742a0ca9f375ed292f.resource",
+   "size": 8544,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/8a3ab7bc91eeac742a0ca9f375ed292f.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "69d7fa449c370b940805c5b96137debd847914a9",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 4426492,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "1a579b86ceebc03e9a64f312960d44e7ea936061",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 51825744,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "9a6aaf8a503062c4271ec9631c92e5f18caea72e",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\libil2cpp.so-c4f5cce3d6d769fb",
+   "xfrm_size": 51826502
+  },
+  {
+   "compression": 8,
+   "hash": "dc64ed4bee950e5ce1ab12268f627a3db179e4af",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 220456,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "1ec448bf6c0c053cb078bbfee45a9846af8d9306",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\AudioPluginMSASpatializer.so-99e776cf1c3482f2",
+   "xfrm_size": 221214
+  },
+  {
+   "compression": 8,
+   "hash": "aed32544e1ea67c511396569fcb89b586b15d839",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "715f293d231a26472ba1672c3e59f76cb0e5e364",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "7b5db6fd21a14dbfe98029f207d6cb49455f9d4b",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\UnityMagicLeap.so-99e776cf1c3482f2",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "a765bb75be250a6992c1a46fc23a55501e369b85",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "687e499877f73f8e0f3c729259e8f87b74afa878",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\libml_camera_plugin.so-99e776cf1c3482f2",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "633780c922a0dbfe032638afff9a25e3fc49219f",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 38792,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "e6ae72ccbcda4d1a8b8d22a0e838caf07853f69b",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\libml_mediaplayer_plugin.so-99e776cf1c3482f2",
+   "xfrm_size": 39550
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "895a0dd64af15cd6fc3d7ebda5b6d995d8c874d6",
+   "pkgpath": "Data/Resources/System.Runtime.Serialization.dll-resources.dat",
+   "size": 2323,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Resources/System.Runtime.Serialization.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "1c281a7abd7f0cec77eb390c3aa4d795a656335e",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 393452,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "e94169e04982098c15b71dea64d4bb6da942f232",
+   "pkgpath": "Data/boot.config",
+   "size": 76,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "96d11e4c56bece4e25eff2abc8a76d3ad4379abe",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 50464,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "c2b8480b8f66ba2c08d7de28da1d29878568ef14",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 90360,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "f6ae7be754a8e14cf00d57b0bfd84343bd3ad5b9",
+   "pkgpath": "Data/level0",
+   "size": 19860,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "107b78d2358203bfbb359c17c526069f50a69a53",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "756f138291622672d65e76656f52d02768aa5db1",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1348576,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "a64a77efc75712bbb8ba8080128d3f0d10c0a1d4",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 2117152,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "8f59c553fa65e4c62b244f94275fdf50ef6a40e8",
+   "pkgpath": "bin/Player.elf",
+   "size": 22318968,
+   "src": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "f5c54f89d6a86d37942cd5193c2ef2c95a8e204b",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\Player.elf-0e8b9bf1b934cd1d",
+   "xfrm_size": 22319726
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/MustafaE/MagicLeap/mlsdk/v0.19.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "bd7c08eb56e0dd5280a6da998f47df07d089183a",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\libc++_shared.so-6299ddf3b21270b2",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "817dbbf9a9e6dc491f5a531a3b5902d9a8d6d676",
+   "pkgpath": "manifest.xml",
+   "size": 1792,
+   "src": "C:\\Users\\MustafaE\\Documents\\GitHub\\heAR\\TestML\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "a89a2017d4d6740f1a1729664ff1aa68574ff4e9",
+     "developer_id": "2f24319e-4797-48e7-b345-4d42b40a9640"
+    }
+   },
+   "xfrm_hash": "b9e8356d6cbc2e2243470c8d6042260247cd0887",
+   "xfrm_path": "C:/Users/MustafaE/Documents/GitHub/heAR/TestML/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.testoray-70046fe941338185\\manifest.xml-0e8b9bf1b934cd1d",
+   "xfrm_size": 1804
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert"
+  },
+  "taildata": {
+   "devcert": "C:\\Users\\MustafaE\\Downloads\\privatekey\\test.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
