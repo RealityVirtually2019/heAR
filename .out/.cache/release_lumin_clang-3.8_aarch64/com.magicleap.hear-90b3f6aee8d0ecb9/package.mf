@@ -2,10 +2,66 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "8e8c3ac8fadb37df2ecce753b43c0b85142b3eee",
+   "hash": "7d0da4ec0a522692064b6d4516b92444d42ba98d",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "4949f6d2b5d2c67afa08dbf68ab5c8c3e49ec525",
+   "pkgpath": "Data/170c02e10c121294486c57133d65b5cc",
+   "size": 50074,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/170c02e10c121294486c57133d65b5cc"
+  },
+  {
+   "compression": 8,
+   "hash": "cd3d81e3d82ad27ad9fff5e01fdaa948d301f3e5",
+   "pkgpath": "Data/1e71f539decd80f4bb2541c46a153223",
+   "size": 50094,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/1e71f539decd80f4bb2541c46a153223"
+  },
+  {
+   "compression": 8,
+   "hash": "b43467e117fcc51ec4da91b1050e665c3b5542c8",
+   "pkgpath": "Data/2b303258409019f428ed17a87cda4ac9",
+   "size": 50342,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/2b303258409019f428ed17a87cda4ac9"
+  },
+  {
+   "compression": 8,
+   "hash": "dbff325bfad543a7260e42d0a4f2403f040152b1",
+   "pkgpath": "Data/479521f96370b384d810a07599e7b084",
+   "size": 50254,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/479521f96370b384d810a07599e7b084"
+  },
+  {
+   "compression": 8,
+   "hash": "2469df024d59ad317a7e76013bc82f408d5efefe",
+   "pkgpath": "Data/51731a8a220e240478717934f6e99543",
+   "size": 49482,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/51731a8a220e240478717934f6e99543"
+  },
+  {
+   "compression": 8,
+   "hash": "efa6b8f8eee29eb940c9f345d15299af3c4563c9",
+   "pkgpath": "Data/63e7f9bd47d71334aa0ffb67cc5bbfb1",
+   "size": 49654,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/63e7f9bd47d71334aa0ffb67cc5bbfb1"
+  },
+  {
+   "compression": 8,
+   "hash": "edef7ddee8b73c5861e9c05cb4969d178222ed12",
+   "pkgpath": "Data/7f93338dc6150ea45b387e442e8102da",
+   "size": 49366,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/7f93338dc6150ea45b387e442e8102da"
+  },
+  {
+   "compression": 8,
+   "hash": "65df50cd3f774b7dba4a1b741a61d0511e750f4b",
+   "pkgpath": "Data/8401b9c91b47d6449a4be596c8138a90",
+   "size": 50466,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/8401b9c91b47d6449a4be596c8138a90"
   },
   {
    "compression": 8,
@@ -23,16 +79,30 @@
   },
   {
    "compression": 8,
-   "hash": "4d11ec1dd4d4801eeb6f799761b6cc6029d8ec54",
+   "hash": "4ad51582405d12865acc4cf8619118f8276f80c0",
+   "pkgpath": "Data/917dc8bcba1c29c4c8bd325b59088d1c",
+   "size": 49310,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/917dc8bcba1c29c4c8bd325b59088d1c"
+  },
+  {
+   "compression": 8,
+   "hash": "beeb2cbd84f6b07806f2a891d30d740eaac6bcbd",
+   "pkgpath": "Data/9c9078c06443df049a2830962f9dd5ef",
+   "size": 49642,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/9c9078c06443df049a2830962f9dd5ef"
+  },
+  {
+   "compression": 8,
+   "hash": "1c37035748533ebc843a162049aca1047a64d7aa",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 4434168,
+   "size": 4434392,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "4ba55b3d52cc5070109dc9ffcbfa42f37346495c",
+   "hash": "29b61bd2250c268b2e1c026979a044be8e5ab07f",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 51903048,
+   "size": 51903568,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -43,9 +113,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "dc73d0c86cdcaf51ebab6be3fbdab7181782f98d",
+   "xfrm_hash": "e512e257ae4ebaa022b0f64365bd4e09755c55d8",
    "xfrm_path": "C:/Users/rgao/Documents/heAR/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.hear-90b3f6aee8d0ecb9\\libil2cpp.so-8af54847f71de75f",
-   "xfrm_size": 51903806
+   "xfrm_size": 51904326
   },
   {
    "compression": 8,
@@ -181,6 +251,13 @@
   },
   {
    "compression": 8,
+   "hash": "5c18367ea31b7fc24b76d7da35e71558f3327fdc",
+   "pkgpath": "Data/adcae46baa3736748a69f9f489676bd7",
+   "size": 49726,
+   "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/adcae46baa3736748a69f9f489676bd7"
+  },
+  {
+   "compression": 8,
    "hash": "e94169e04982098c15b71dea64d4bb6da942f232",
    "pkgpath": "Data/boot.config",
    "size": 76,
@@ -188,23 +265,23 @@
   },
   {
    "compression": 8,
-   "hash": "9e368aad40824d114fe93e53e181d77798d7ad67",
+   "hash": "4a5de9148cd046b048e233c33434f4b61f48d82f",
    "pkgpath": "Data/globalgamemanagers",
    "size": 50696,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "32e45586657000d8a94fe16a878025b18b434b67",
+   "hash": "d6bee29f380dfb6b815864c3fc9e283b351025c2",
    "pkgpath": "Data/globalgamemanagers.assets",
    "size": 90856,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "afc615bf1b0c5b2715efb5d31ff86f4ea98c756b",
+   "hash": "cfc8b4a102333e9c952622dbe9e71b5c4c57248c",
    "pkgpath": "Data/level0",
-   "size": 20676,
+   "size": 17164,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/level0"
   },
   {
@@ -216,16 +293,16 @@
   },
   {
    "compression": 8,
-   "hash": "2d34d4605498d87324dc4028b604f3532ce16036",
+   "hash": "61e5f96ef6ada54d8f4c8a414128559984a012a8",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 1398232,
+   "size": 847784,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "81c218c755bd8efa71559ccfc12313f1fc1f8853",
+   "hash": "922c7f339e8ffdecac80b05b6c0b841068646a7f",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 3796512,
+   "size": 3776512,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/sharedassets0.assets.resS"
   },
   {

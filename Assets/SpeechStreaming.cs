@@ -23,6 +23,7 @@ using IBM.Watson.DeveloperCloud.Utilities;
 using IBM.Watson.DeveloperCloud.DataTypes;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System;
 
 public class SpeechStreaming : MonoBehaviour
 {
@@ -56,6 +57,13 @@ public class SpeechStreaming : MonoBehaviour
     #endregion
 
     private string oldText;
+    private string currentText;
+    private DateTime previousWord;
+    private bool firstWord;
+
+    public GameObject history;
+
+
 
     private int _recordingRoutine = 0;
     private string _microphoneID = null;
@@ -70,6 +78,29 @@ public class SpeechStreaming : MonoBehaviour
         LogSystem.InstallDefaultReactors();
         Runnable.Run(CreateService());
         oldText = "";
+    }
+
+    private void Update()
+    {
+        // Check if time interval between onRecognize is greater than threshold. Or if completely new scentence If so store new next
+        if (!firstWord)
+        {
+            if ((DateTime.UtcNow - previousWord).TotalSeconds > 2)
+            {
+                Debug.Log("Storing " + oldText);
+                history.GetComponent<Text>().text = oldText + "\n" + history.GetComponent<Text>().text;
+                oldText = "";
+                currentText = "";
+                firstWord = true;
+            }
+          
+            else if (oldText.Length > 0 && !currentText.Split(' ')[0].Equals(oldText.Split(' ')[0]))
+            {
+                history.GetComponent<Text>().text = oldText + "\n" + history.GetComponent<Text>().text;
+                oldText = currentText;
+            }
+        } 
+
     }
 
     private IEnumerator CreateService()
@@ -233,15 +264,26 @@ public class SpeechStreaming : MonoBehaviour
             {
                 foreach (var alt in res.alternatives)
                 {
-                    string text = string.Format("{0} ({1}, {2:0.00})\n", alt.transcript, res.final ? "Final" : "Interim", alt.confidence);
+                    // string text = string.Format("{0} ({1}, {2:0.00})\n", alt.transcript, res.final ? "Final" : "Interim", alt.confidence);
+
+                    string text = alt.transcript.Replace("%HESITATION", "...");
+
                     Log.Debug("ExampleStreaming.OnRecognize()", text);
+
                     ResultsField.text = text;
 
-                    GameObject history = GameObject.Find("Text: History");
+                    // New text
+                    if (firstWord)
+                    {
+                        oldText = text;
+                        firstWord = false;
+                    } else
+                    {
+                        oldText = currentText;   
+                    }
+                    currentText = text;
 
-                    if (!oldText.Equals(text))
-                        history.GetComponent<Text>().text += text;
-                    oldText = text;
+                    previousWord = DateTime.UtcNow;
                 }
 
                 if (res.keywords_result != null && res.keywords_result.keyword != null)
