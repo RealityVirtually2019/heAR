@@ -55,6 +55,7 @@ public class SpeechStreaming : MonoBehaviour
     private string _recognizeModel;
     #endregion
 
+    private string oldText;
 
     private int _recordingRoutine = 0;
     private string _microphoneID = null;
@@ -68,6 +69,7 @@ public class SpeechStreaming : MonoBehaviour
     {
         LogSystem.InstallDefaultReactors();
         Runnable.Run(CreateService());
+        oldText = "";
     }
 
     private IEnumerator CreateService()
@@ -234,6 +236,12 @@ public class SpeechStreaming : MonoBehaviour
                     string text = string.Format("{0} ({1}, {2:0.00})\n", alt.transcript, res.final ? "Final" : "Interim", alt.confidence);
                     Log.Debug("ExampleStreaming.OnRecognize()", text);
                     ResultsField.text = text;
+
+                    GameObject history = GameObject.Find("Text: History");
+
+                    if (!oldText.Equals(text))
+                        history.GetComponent<Text>().text += text;
+                    oldText = text;
                 }
 
                 if (res.keywords_result != null && res.keywords_result.keyword != null)

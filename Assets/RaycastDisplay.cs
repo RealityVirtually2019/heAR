@@ -24,6 +24,8 @@ namespace MagicLeap
         // Stores default color
         private Color _color;
 
+        private GameObject history;
+
         // Stores result of raycast
         private bool _hit = false;
 
@@ -84,6 +86,8 @@ namespace MagicLeap
             }
             _color = _render.material.color;
 
+            history = GameObject.Find("Text: History");
+
             MLInput.OnControllerButtonDown += OnButtonDown;
             MLInput.OnControllerButtonUp += OnButtonUp;
         }
@@ -143,6 +147,12 @@ namespace MagicLeap
             if (button == MLInputControllerButton.Bumper)
             {
                 _render.material.color = Color.green;
+
+            }
+            
+            if (button == MLInputControllerButton.HomeTap)
+            {
+                history.SetActive(true);
             }
         }
 
