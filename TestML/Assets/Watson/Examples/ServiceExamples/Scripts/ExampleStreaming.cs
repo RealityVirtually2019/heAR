@@ -55,6 +55,7 @@ public class ExampleStreaming : MonoBehaviour
     private string _recognizeModel;
     #endregion
 
+    private string oldText;
 
     private int _recordingRoutine = 0;
     private string _microphoneID = null;
@@ -68,6 +69,7 @@ public class ExampleStreaming : MonoBehaviour
     {
         LogSystem.InstallDefaultReactors();
         Runnable.Run(CreateService());
+        oldText = "";
     }
 
     private IEnumerator CreateService()
@@ -235,7 +237,10 @@ public class ExampleStreaming : MonoBehaviour
                     Log.Debug("ExampleStreaming.OnRecognize()", text);
                     ResultsField.text = text;
                     GameObject History = GameObject.Find("Text: History");
-                    History.GetComponent<Text>().text += text;
+
+                    if (!oldText.Equals(text))
+                        History.GetComponent<Text>().text += text;
+                    oldText = text;
                 }
 
                 if (res.keywords_result != null && res.keywords_result.keyword != null)
