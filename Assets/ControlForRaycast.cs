@@ -7,6 +7,7 @@ public class ControlForRaycast : MonoBehaviour {
     public Transform Controller;    
     public GameObject prefab;
     public Transform cTransform;
+    public SpeechStreaming stream;
     private MLInputController _controller;
 
     // Use this for initialization
@@ -26,14 +27,16 @@ public class ControlForRaycast : MonoBehaviour {
     // Instantiate the prefab at the given point.
     // Rotate the prefab to match given normal.
     // Wait 2 seconds then destroy the prefab.
-    private IEnumerator NormalMarker(Vector3 point, Vector3 normal)
+     private IEnumerator NormalMarker(Vector3 point, Vector3 normal)
+    //private void NormalMarker(Vector3 point, Vector3 normal)
     {
         Quaternion rotation = Quaternion.FromToRotation(Vector3.up, normal);
         GameObject bubble = Instantiate(prefab, point, rotation);
         bubble.transform.LookAt(cTransform);
         bubble.transform.position = transform.position + transform.up * .3f - transform.right * .1f;
+        stream.ResultsField = bubble.GetComponentInChildren<TextMesh>();
         yield return new WaitForSeconds(3);
-        Destroy(bubble);
+        // Destroy(bubble);
     }
 
     // Use a callback to know when to run the NormalMaker() coroutine.
@@ -42,6 +45,7 @@ public class ControlForRaycast : MonoBehaviour {
         if (state == MLWorldRays.MLWorldRaycastResultState.HitObserved)
         {
             StartCoroutine(NormalMarker(point, normal));
+            // NormalMarker(point, normal);
         }
     }
 
