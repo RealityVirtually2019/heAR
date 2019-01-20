@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/logo.unity
+    guid: 207795a9d7cf11b448a225c3d63637a7
   - enabled: 1
     path: Assets/Scenes/ControlRaycast.unity
     guid: 5c5c7b78fb5e5a74983a0bf130e71e1a
