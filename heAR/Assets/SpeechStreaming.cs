@@ -270,7 +270,14 @@ public class SpeechStreaming : MonoBehaviour
 
                     Log.Debug("ExampleStreaming.OnRecognize()", text);
 
-                    ResultsField.text = text;
+                    string wrappedText = "";
+                    for (int i = 0; i< text.Length; i++)
+                    {
+                        wrappedText += text[i];
+                        if (i % 25 == 0 && i != 0) wrappedText += "\n";
+                    }
+
+                    ResultsField.text = wrappedText;
 
                     // New text
                     if (firstWord)

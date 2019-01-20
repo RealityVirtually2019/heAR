@@ -2,7 +2,7 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "7d0da4ec0a522692064b6d4516b92444d42ba98d",
+   "hash": "a3434f07980c5e74890810d9d08cd467b1f900f3",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
@@ -93,16 +93,16 @@
   },
   {
    "compression": 8,
-   "hash": "1c37035748533ebc843a162049aca1047a64d7aa",
+   "hash": "50c9bd38698fcb45a581a6f4bd8306105c95738f",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 4434392,
+   "size": 4439024,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "29b61bd2250c268b2e1c026979a044be8e5ab07f",
+   "hash": "e189d3018013f5c20b59cdaa92df02170ce35042",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 51903568,
+   "size": 51951760,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -113,9 +113,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "e512e257ae4ebaa022b0f64365bd4e09755c55d8",
+   "xfrm_hash": "b5fcf3d38bb4a24e55694992534c1e26218f554e",
    "xfrm_path": "C:/Users/rgao/Documents/heAR/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.hear-90b3f6aee8d0ecb9\\libil2cpp.so-8af54847f71de75f",
-   "xfrm_size": 51904326
+   "xfrm_size": 51952518
   },
   {
    "compression": 8,
@@ -265,23 +265,23 @@
   },
   {
    "compression": 8,
-   "hash": "4a5de9148cd046b048e233c33434f4b61f48d82f",
+   "hash": "508093fee813eb9a61cfa16b5423a48e12f72b07",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 50696,
+   "size": 50784,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "d6bee29f380dfb6b815864c3fc9e283b351025c2",
+   "hash": "110359163dd1b2a368e9ac9d39ad78ec13bb354c",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 90856,
+   "size": 91120,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "cfc8b4a102333e9c952622dbe9e71b5c4c57248c",
+   "hash": "0f984f0a6901054bc0795f7753f3949f2def02c5",
    "pkgpath": "Data/level0",
-   "size": 17164,
+   "size": 19212,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/level0"
   },
   {
@@ -293,9 +293,9 @@
   },
   {
    "compression": 8,
-   "hash": "61e5f96ef6ada54d8f4c8a414128559984a012a8",
+   "hash": "144bcf854f8429ce2f2b701d972c0bf66d7705d6",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 847784,
+   "size": 847848,
    "src": "C:/Users/rgao/Documents/heAR/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {

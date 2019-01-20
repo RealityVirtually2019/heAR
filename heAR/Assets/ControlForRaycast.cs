@@ -9,6 +9,7 @@ public class ControlForRaycast : MonoBehaviour {
     public Transform cTransform;
     public SpeechStreaming stream;
     private MLInputController _controller;
+    private GameObject bubble;
 
     // Use this for initialization
     void Start () {
@@ -31,12 +32,11 @@ public class ControlForRaycast : MonoBehaviour {
     //private void NormalMarker(Vector3 point, Vector3 normal)
     {
         Quaternion rotation = Quaternion.FromToRotation(Vector3.up, normal);
-        GameObject bubble = Instantiate(prefab, point, rotation);
+        bubble = Instantiate(prefab, point, rotation);
         bubble.transform.LookAt(cTransform);
         bubble.transform.position = transform.position + transform.up * .3f - transform.right * .1f;
         stream.ResultsField = bubble.GetComponentInChildren<TextMesh>();
         yield return new WaitForSeconds(3);
-        // Destroy(bubble);
     }
 
     // Use a callback to know when to run the NormalMaker() coroutine.
@@ -61,6 +61,11 @@ public class ControlForRaycast : MonoBehaviour {
     {
         if (button == MLInputControllerButton.Bumper)
         {
+            if (bubble)
+            {
+                Destroy(bubble);
+            }
+
             Debug.Log("Place bubble");
             // Create a raycast parameters variable
             MLWorldRays.QueryParams _raycastParams = new MLWorldRays.QueryParams
