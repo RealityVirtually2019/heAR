@@ -234,6 +234,8 @@ public class ExampleStreaming : MonoBehaviour
                     string text = string.Format("{0} ({1}, {2:0.00})\n", alt.transcript, res.final ? "Final" : "Interim", alt.confidence);
                     Log.Debug("ExampleStreaming.OnRecognize()", text);
                     ResultsField.text = text;
+                    GameObject History = GameObject.Find("Text: History");
+                    History.GetComponent<Text>().text += text;
                 }
 
                 if (res.keywords_result != null && res.keywords_result.keyword != null)

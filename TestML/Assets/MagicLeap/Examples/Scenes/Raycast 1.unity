@@ -1072,29 +1072,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'this is where history will be
-
-    ya
-
-    YA
-
-    ya
-
-    ya
-
-    ya
-
-    ya
-
-    yaaa
-
-    yaa
-
-    ay
-
-    ay
-
-    ya'
+  m_Text: 
 --- !u!222 &1263515080
 CanvasRenderer:
   m_ObjectHideFlags: 0
