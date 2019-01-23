@@ -1,6 +1,6 @@
 <img src="/heARLogo.png" width="300" height="150" />
 
-# heAR - Richard Gao, Mustafa Eyceoz, James Ma, Joanne Lyu, and Devanshi Udeshi
+# heAR - Richard Gao, Mustafa Eyceoz, James Ma, Joanna Liu, and Devanshi Udeshi
 Revolutionizing human communication for the Hearing Impaired. <br/>
 App developed for the Magic Leap One Mixed Reality Headset.
 
